@@ -1,11 +1,11 @@
 # Global
 DATASET_PATH = './dataset'
-ANNOTATIONS_PATH = './dataset/csv'
-#ANNOTATIONS_PATH = '/input/Tianchi/dataset/csv'
-PREPROCESS_PATH = './preprocess'
-#PREPROCESS_PATH = '/input/Tianchi/preprocess2'
-LOG_BASE_PATH = './output/training_logs'
-#LOG_BASE_PATH = '/output/training_logs'
+#ANNOTATIONS_PATH = './dataset/csv'
+ANNOTATIONS_PATH = '/input/Tianchi/dataset/csv'
+#PREPROCESS_PATH = './preprocess'
+PREPROCESS_PATH = '/input/Tianchi/preprocess2'
+#LOG_BASE_PATH = './output/training_logs'
+LOG_BASE_PATH = '/output/training_logs'
 MSG_LOG_FILE = '{}/log.log'.format(LOG_BASE_PATH)
 TRAIN_VAL_RATIO = 0.7
 
